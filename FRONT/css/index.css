@@ -1,0 +1,57 @@
+/*********** INICIO INDEX  ***********/
+body {
+  margin: 0;
+  font-family: Arial;
+  background-color: rgb(15, 26, 48);
+}
+
+.header-responsive {
+  overflow: hidden;
+  background-color: rgb(231, 230, 230);
+  padding: 20px 10px;
+}
+
+.header-responsive a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header-responsive a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header-responsive a:hover {
+  background-color: #16437E;
+  color: rgb(231, 230, 230);
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+}
+
+.header-responsive a.active {
+  background-color: rgb(15, 26, 48);
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header-responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .header-right {
+    float: none;
+  }
+}
+
+/*********** FIN INDEX  ***********/

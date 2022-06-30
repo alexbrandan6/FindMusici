@@ -1,0 +1,99 @@
+/*********** INICIO BUTTON SUCCESS  ***********/
+.button-success {
+    align-items: center;
+    background-color: rgb(48, 81, 148);
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 400;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    margin: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+}
+
+.button-success:hover,
+.button-success:focus {
+    background-color: #16437E;
+    color: #ffffff;
+}
+
+.button-success:active {
+    background: #09223b;
+    color: rgb(255, 255, 255, .7);
+}
+
+.button-success:disabled {
+    cursor: not-allowed;
+    background: rgb(15, 26, 48);
+    color: rgba(0, 0, 0, .3);
+}
+
+/*********** FIN BUTTON SUCCESS  ***********/
+
+/*********** INICIO BUTTON DANGER  ***********/
+.button-danger {
+    align-items: center;
+    background-color: rgb(148, 48, 48);
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 400;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    margin: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+}
+
+.button-danger:hover,
+.button-danger:focus {
+    background-color: #7e1616;
+    color: #ffffff;
+}
+
+.button-danger:active {
+    background: #3b0909;
+    color: rgb(255, 255, 255, .7);
+}
+
+.button-danger:disabled {
+    cursor: not-allowed;
+    background: rgb(48, 15, 15);
+    color: rgba(0, 0, 0, 0.3);
+}
+
+/*********** FIN BUTTON DANGER  ***********/
